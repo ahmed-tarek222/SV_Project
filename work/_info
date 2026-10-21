@@ -1,0 +1,252 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/User/Desktop/A3_Q1
+T_opt
+!s110 1789841499
+V5ocb=?T2Mb7ROLQaVH?;G1
+04 3 4 work top fast 0
+=1-5c60bae3f83d-6aaed05b-40-3440
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vFIFO
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1789841498
+!i10b 1
+!s100 ADg@Rd`WDi5[4ZN`X];ca2
+II2Qc1g?P7go5cT1DdE3f:1
+S1
+Z4 dC:/Users/User/Desktop/SV_Project
+w1789821876
+8FIFO.sv
+FFIFO.sv
+!i122 109
+L0 1 146
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1789841498.000000
+!s107 FIFO.sv|
+!s90 -reportprogress|300|-sv|+cover=sbtc|FIFO.sv|
+!i113 0
+Z8 !s102 +cover=sbtc
+Z9 o-sv +cover=sbtc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@f@i@f@o
+Xfifo_coverage_pkg
+R2
+Z10 DXx4 work 8 fifo_pkg 0 22 LIXjznmJ7:[7n0[PWYWDC3
+R3
+!i10b 1
+!s100 8ZlGJQk@:>lG[gRL93>Z63
+I4O6iJ`ZL?YOGXW<Eb4YfJ3
+S1
+R4
+w1789820677
+8fifo_coverage_pkg.sv
+Ffifo_coverage_pkg.sv
+!i122 106
+Z11 L0 1 0
+V4O6iJ`ZL?YOGXW<Eb4YfJ3
+R6
+r1
+!s85 0
+31
+R7
+!s107 fifo_coverage_pkg.sv|
+!s90 -reportprogress|300|-sv|fifo_coverage_pkg.sv|
+!i113 0
+Z12 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yfifo_if
+R2
+R3
+!i10b 1
+!s100 [[QEN[1<AS35`CVAm0fEe0
+IZfU4=6T@:H^bU]M`jRG[L0
+S1
+R4
+w1789822038
+8fifo_if.sv
+Ffifo_if.sv
+!i122 108
+R11
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 fifo_if.sv|
+!s90 -reportprogress|300|-sv|+cover=sbtc|fifo_if.sv|
+!i113 0
+R8
+R9
+R1
+Xfifo_pkg
+R2
+R3
+!i10b 1
+!s100 9MG4NR3B=Vo:JeImdJRHT1
+ILIXjznmJ7:[7n0[PWYWDC3
+S1
+R4
+w1789841465
+8fifo_pkg.sv
+Ffifo_pkg.sv
+!i122 105
+R11
+VLIXjznmJ7:[7n0[PWYWDC3
+R6
+r1
+!s85 0
+31
+R7
+!s107 fifo_pkg.sv|
+!s90 -reportprogress|300|-sv|fifo_pkg.sv|
+!i113 0
+R12
+R1
+Xfifo_scoreboard_pkg
+R2
+R10
+Z13 DXx4 work 10 shared_pkg 0 22 P7jQn]ZKnRD1lTE?zOR<e2
+R3
+!i10b 1
+!s100 UUYeRM:0Z37ZZKimle]5z3
+I;]40`W;I;26F[WzFDK_Ac2
+S1
+R4
+w1789841485
+8fifo_scoreboard_pkg.sv
+Ffifo_scoreboard_pkg.sv
+!i122 107
+R11
+V;]40`W;I;26F[WzFDK_Ac2
+R6
+r1
+!s85 0
+31
+R7
+!s107 fifo_scoreboard_pkg.sv|
+!s90 -reportprogress|300|-sv|fifo_scoreboard_pkg.sv|
+!i113 0
+R12
+R1
+vmonitor
+R2
+R10
+DXx4 work 17 fifo_coverage_pkg 0 22 4O6iJ`ZL?YOGXW<Eb4YfJ3
+R13
+DXx4 work 19 fifo_scoreboard_pkg 0 22 ;]40`W;I;26F[WzFDK_Ac2
+R3
+!i10b 1
+!s100 LW<dSVAPG^=ZAIQ<Re_Bd1
+I3Z?jbK77lAAmi8ncEB>XY1
+S1
+R4
+w1789822063
+8monitor.sv
+Fmonitor.sv
+!i122 110
+L0 1 45
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 monitor.sv|
+!s90 -reportprogress|300|-sv|monitor.sv|
+!i113 0
+R12
+R1
+Xshared_pkg
+R2
+R3
+!i10b 1
+!s100 o:6F=oE<:??I=S=zH72`T1
+IP7jQn]ZKnRD1lTE?zOR<e2
+S1
+R4
+w1789822055
+8shared_pkg.sv
+Fshared_pkg.sv
+!i122 104
+R11
+VP7jQn]ZKnRD1lTE?zOR<e2
+R6
+r1
+!s85 0
+31
+R7
+!s107 shared_pkg.sv|
+!s90 -reportprogress|300|-sv|shared_pkg.sv|
+!i113 0
+R12
+R1
+vtb
+R2
+R10
+R13
+R3
+!i10b 1
+!s100 nU<lldol77aP`YBEFfX2<3
+Ih:N4Ba0^V4^h^TT@dI>6N0
+S1
+R4
+w1789822295
+8tb.sv
+Ftb.sv
+!i122 111
+L0 1 37
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 tb.sv|
+!s90 -reportprogress|300|-sv|tb.sv|
+!i113 0
+R12
+R1
+vtop
+R2
+R3
+!i10b 1
+!s100 C2LMPibL3?FXFR1aiHf:]1
+Ij<<DRWK9;z>T2aD^f2lEV3
+S1
+R4
+w1789840651
+8top.sv
+Ftop.sv
+!i122 112
+L0 1 21
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 top.sv|
+!s90 -reportprogress|300|-sv|top.sv|
+!i113 0
+R12
+R1

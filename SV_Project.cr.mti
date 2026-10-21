@@ -1,0 +1,57 @@
+C:/Users/User/Desktop/SV_Project/top.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/SV_Project/top.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/User/Desktop/SV_Project/monitor.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/SV_Project/monitor.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module monitor
+-- Importing package fifo_pkg
+-- Importing package fifo_coverage_pkg
+-- Importing package fifo_scoreboard_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	monitor
+
+} {} {}} C:/Users/User/Desktop/SV_Project/shared_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/SV_Project/shared_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/SV_Project/FIFO.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/SV_Project/FIFO.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} C:/Users/User/Desktop/SV_Project/fifo_coverage_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/SV_Project/fifo_coverage_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_coverage_pkg
+-- Importing package fifo_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/User/Desktop/SV_Project/tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/SV_Project/tb.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb
+-- Importing package fifo_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	tb
+
+} {} {}} C:/Users/User/Desktop/SV_Project/fifo_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/SV_Project/fifo_if.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface fifo_if
+
+Top level modules:
+	--none--
+
+} {} {}}

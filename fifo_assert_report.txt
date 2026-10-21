@@ -1,0 +1,107 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/dut
+=== Design Unit: work.FIFO
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      13        13         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/top/dut/assert__p_count_range
+                     FIFO.sv(143)                       0       1814          0        188       2002          0           - off
+/top/dut/assert__p_rd_ptr_range
+                     FIFO.sv(137)                       0       1814          0        188       2002          0           - off
+/top/dut/assert__p_wr_ptr_range
+                     FIFO.sv(131)                       0       1814          0        188       2002          0           - off
+/top/dut/assert__p_rd_ptr_wrap
+                     FIFO.sv(125)                       0         13       1801        188       2002          0           - off
+/top/dut/assert__p_wr_ptr_wrap
+                     FIFO.sv(118)                       0         70       1738        194       2002          0           - off
+/top/dut/assert__p_almostempty
+                     FIFO.sv(111)                       0        300       1514        188       2002          0           - off
+/top/dut/assert__p_almostfull
+                     FIFO.sv(105)                       0        110       1704        188       2002          0           - off
+/top/dut/assert__p_full
+                     FIFO.sv(99)                        0        254       1560        188       2002          0           - off
+/top/dut/assert__p_empty
+                     FIFO.sv(93)                        0        349       1465        188       2002          0           - off
+/top/dut/assert__p_underflow
+                     FIFO.sv(87)                        0         87       1716        199       2002          0           - off
+/top/dut/assert__p_overflow
+                     FIFO.sv(81)                        0        160       1630        212       2002          0           - off
+/top/dut/assert__p_wr_ack
+                     FIFO.sv(75)                        0       1013        709        280       2002          0           - off
+/top/dut/assert__p_reset_behavior
+                     FIFO.sv(69)                        0        188       1814          0       2002          0           - off
+
+=================================================================================
+=== Instance: /top/tb_i
+=== Design Unit: work.tb
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/top/tb_i/#ublk#1954#18/immed__19
+                     tb.sv(19)                          0       2000          0          0       2000          0           - off
+
+=================================================================================
+=== Instance: /top
+=== Design Unit: work.top
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         0         1     0.00%
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/top/#ublk#31584#15/immed__17
+                     top.sv(17)                       166         11          0          0        177          0           - off
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/top/#ublk#31584#15/immed__17
+                     top.sv(17)                       166         11          0          0        177          0           - off
+/top/dut/assert__p_count_range
+                     FIFO.sv(143)                       0       1814          0        188       2002          0           - off
+/top/dut/assert__p_rd_ptr_range
+                     FIFO.sv(137)                       0       1814          0        188       2002          0           - off
+/top/dut/assert__p_wr_ptr_range
+                     FIFO.sv(131)                       0       1814          0        188       2002          0           - off
+/top/dut/assert__p_rd_ptr_wrap
+                     FIFO.sv(125)                       0         13       1801        188       2002          0           - off
+/top/dut/assert__p_wr_ptr_wrap
+                     FIFO.sv(118)                       0         70       1738        194       2002          0           - off
+/top/dut/assert__p_almostempty
+                     FIFO.sv(111)                       0        300       1514        188       2002          0           - off
+/top/dut/assert__p_almostfull
+                     FIFO.sv(105)                       0        110       1704        188       2002          0           - off
+/top/dut/assert__p_full
+                     FIFO.sv(99)                        0        254       1560        188       2002          0           - off
+/top/dut/assert__p_empty
+                     FIFO.sv(93)                        0        349       1465        188       2002          0           - off
+/top/dut/assert__p_underflow
+                     FIFO.sv(87)                        0         87       1716        199       2002          0           - off
+/top/dut/assert__p_overflow
+                     FIFO.sv(81)                        0        160       1630        212       2002          0           - off
+/top/dut/assert__p_wr_ack
+                     FIFO.sv(75)                        0       1013        709        280       2002          0           - off
+/top/dut/assert__p_reset_behavior
+                     FIFO.sv(69)                        0        188       1814          0       2002          0           - off
+/top/tb_i/#ublk#1954#18/immed__19
+                     tb.sv(19)                          0       2000          0          0       2000          0           - off
+
+Total Coverage By Instance (filtered view): 93.33%
+
